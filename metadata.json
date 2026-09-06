@@ -1,0 +1,6 @@
+{
+  "name": "KOMECHAT",
+  "description": "Application web privée de communication en temps réel avec messagerie, partage de fichiers, stockage persistant, appels audio et vidéo WebRTC HD, playlist MP3 avec lecture en boucle par ordre ou aléatoire.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

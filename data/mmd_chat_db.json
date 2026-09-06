@@ -1,0 +1,703 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "phone": "+32484824481",
+      "firstName": "Admin",
+      "lastName": "KOMECHAT",
+      "avatarUrl": "/komechat_logo.jpg",
+      "role": "ADMIN",
+      "status": "ONLINE",
+      "statusMessage": "Administrateur système KOMECHAT",
+      "isActive": true,
+      "mustChangePassword": false,
+      "lastSeenAt": "2026-09-06T08:38:02.050Z",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-09-06T08:38:02.050Z",
+      "username": "admin"
+    },
+    {
+      "id": "usr_jean",
+      "phone": "+22891234567",
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "USER",
+      "status": "OFFLINE",
+      "statusMessage": "En réunion projet",
+      "isActive": true,
+      "mustChangePassword": false,
+      "lastSeenAt": "2026-09-05T09:45:44.863Z",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-09-05T09:45:44.863Z"
+    },
+    {
+      "id": "usr_marie",
+      "phone": "+22892345678",
+      "firstName": "Marie",
+      "lastName": "Lawson",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "role": "USER",
+      "status": "OFFLINE",
+      "statusMessage": "En congé",
+      "isActive": true,
+      "mustChangePassword": false,
+      "lastSeenAt": "2026-08-28T15:08:30.570Z",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-08-28T17:08:30.040Z"
+    },
+    {
+      "id": "usr_paul",
+      "phone": "+22893456789",
+      "firstName": "Paul",
+      "lastName": "Kogan",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "role": "USER",
+      "status": "OFFLINE",
+      "statusMessage": "Disponible par message",
+      "isActive": true,
+      "mustChangePassword": false,
+      "lastSeenAt": "2026-08-28T12:08:30.570Z",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-08-28T17:08:30.040Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_admin_jean",
+      "type": "DIRECT",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-09-05T10:20:20.251Z",
+      "lastMessageAt": "2026-09-05T10:20:20.251Z",
+      "members": [
+        {
+          "id": "mem_1",
+          "conversationId": "conv_admin_jean",
+          "userId": "usr_admin",
+          "joinedAt": "2026-08-28T17:08:30.040Z",
+          "lastReadMessageId": "msg_2",
+          "muted": false
+        },
+        {
+          "id": "mem_2",
+          "conversationId": "conv_admin_jean",
+          "userId": "usr_jean",
+          "joinedAt": "2026-08-28T17:08:30.040Z",
+          "lastReadMessageId": "msg_2",
+          "muted": false
+        }
+      ]
+    }
+  ],
+  "conversationMembers": [
+    {
+      "id": "mem_1",
+      "conversationId": "conv_admin_jean",
+      "userId": "usr_admin",
+      "joinedAt": "2026-08-28T17:08:30.040Z",
+      "lastReadMessageId": "msg_1788603440050_wk53",
+      "muted": false
+    },
+    {
+      "id": "mem_2",
+      "conversationId": "conv_admin_jean",
+      "userId": "usr_jean",
+      "joinedAt": "2026-08-28T17:08:30.040Z",
+      "lastReadMessageId": "msg_1788601469630_91i8",
+      "muted": false
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_admin",
+      "content": "Bienvenue sur la plateforme sécurisée MMD Chat !",
+      "type": "TEXT",
+      "replyToId": null,
+      "createdAt": "2026-08-28T17:06:50.570Z",
+      "updatedAt": "2026-08-28T17:06:50.571Z",
+      "deletedAt": null
+    },
+    {
+      "id": "msg_2",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_jean",
+      "content": "Merci ! Tout fonctionne parfaitement en temps réel.",
+      "type": "TEXT",
+      "replyToId": "msg_1",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-08-28T17:08:30.040Z",
+      "deletedAt": null
+    },
+    {
+      "id": "msg_1788601384888_vzva",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_admin",
+      "content": "cc",
+      "type": "TEXT",
+      "replyToId": null,
+      "createdAt": "2026-09-05T09:43:04.888Z",
+      "updatedAt": "2026-09-05T09:43:04.888Z",
+      "deletedAt": null,
+      "file": null
+    },
+    {
+      "id": "msg_1788601469630_91i8",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_jean",
+      "content": "slt",
+      "type": "TEXT",
+      "replyToId": null,
+      "createdAt": "2026-09-05T09:44:29.630Z",
+      "updatedAt": "2026-09-05T09:44:29.630Z",
+      "deletedAt": null,
+      "file": null
+    },
+    {
+      "id": "msg_1788603280515_grpf",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_admin",
+      "content": "",
+      "type": "IMAGE",
+      "replyToId": null,
+      "createdAt": "2026-09-05T10:14:40.515Z",
+      "updatedAt": "2026-09-05T10:14:40.515Z",
+      "deletedAt": null,
+      "file": {
+        "id": "file_1788603280196_upj4",
+        "messageId": "msg_1788603280515_grpf",
+        "originalName": "home-about1.png",
+        "storageKey": "file_1788603280189_665549868.png",
+        "mimeType": "image/png",
+        "extension": ".png",
+        "size": 287807,
+        "url": "/api/v1/files/raw/file_1788603280189_665549868.png",
+        "createdAt": "2026-09-05T10:14:40.196Z"
+      }
+    },
+    {
+      "id": "msg_1788603440050_wk53",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_admin",
+      "content": "Ce message a été supprimé.",
+      "type": "TEXT",
+      "replyToId": null,
+      "createdAt": "2026-09-05T10:17:20.050Z",
+      "updatedAt": "2026-09-05T10:18:00.748Z",
+      "deletedAt": "2026-09-05T10:18:05.306Z",
+      "file": null,
+      "isEdited": true
+    },
+    {
+      "id": "msg_1788603620251_3ci7",
+      "conversationId": "conv_admin_jean",
+      "senderId": "usr_admin",
+      "content": "Test message OK",
+      "type": "TEXT",
+      "replyToId": null,
+      "createdAt": "2026-09-05T10:20:20.251Z",
+      "updatedAt": "2026-09-05T10:20:20.251Z",
+      "deletedAt": null,
+      "file": null
+    }
+  ],
+  "messageStatuses": [
+    {
+      "id": "st_1",
+      "messageId": "msg_1",
+      "userId": "usr_jean",
+      "status": "READ",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-09-05T09:44:29.951Z"
+    },
+    {
+      "id": "st_2",
+      "messageId": "msg_2",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-08-28T17:08:30.040Z",
+      "updatedAt": "2026-09-05T10:17:24.378Z"
+    },
+    {
+      "id": "st_1788601384888_qw7w",
+      "messageId": "msg_1788601384888_vzva",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-09-05T09:43:04.888Z",
+      "updatedAt": "2026-09-05T09:43:04.888Z"
+    },
+    {
+      "id": "st_1788601469630_mhxd",
+      "messageId": "msg_1788601469630_91i8",
+      "userId": "usr_jean",
+      "status": "READ",
+      "createdAt": "2026-09-05T09:44:29.630Z",
+      "updatedAt": "2026-09-05T09:44:29.630Z"
+    },
+    {
+      "id": "st_1788601469951_iifn",
+      "messageId": "msg_1788601384888_vzva",
+      "userId": "usr_jean",
+      "status": "READ",
+      "createdAt": "2026-09-05T09:44:29.951Z",
+      "updatedAt": "2026-09-05T09:44:29.951Z"
+    },
+    {
+      "id": "st_1788602317097_lp0t",
+      "messageId": "msg_1788601469630_91i8",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-09-05T09:58:37.097Z",
+      "updatedAt": "2026-09-05T10:17:24.379Z"
+    },
+    {
+      "id": "st_1788603280516_lhkd",
+      "messageId": "msg_1788603280515_grpf",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-09-05T10:14:40.516Z",
+      "updatedAt": "2026-09-05T10:14:40.516Z"
+    },
+    {
+      "id": "st_1788603440051_jir5",
+      "messageId": "msg_1788603440050_wk53",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-09-05T10:17:20.050Z",
+      "updatedAt": "2026-09-05T10:17:20.050Z"
+    },
+    {
+      "id": "st_1788603620251_wp7t",
+      "messageId": "msg_1788603620251_3ci7",
+      "userId": "usr_admin",
+      "status": "READ",
+      "createdAt": "2026-09-05T10:20:20.251Z",
+      "updatedAt": "2026-09-05T10:20:20.251Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "file_1788602515653_20z6",
+      "messageId": null,
+      "originalName": "testfile.txt",
+      "storageKey": "file_1788602515648_565147318.txt",
+      "mimeType": "text/plain",
+      "extension": ".txt",
+      "size": 18,
+      "url": "/api/v1/files/raw/file_1788602515648_565147318.txt",
+      "createdAt": "2026-09-05T10:01:55.653Z"
+    },
+    {
+      "id": "file_1788602931086_1mcs",
+      "messageId": null,
+      "originalName": "test_upload.txt",
+      "storageKey": "file_1788602931080_722675766.txt",
+      "mimeType": "text/plain",
+      "extension": ".txt",
+      "size": 38,
+      "url": "/api/v1/files/raw/file_1788602931080_722675766.txt",
+      "createdAt": "2026-09-05T10:08:51.086Z"
+    },
+    {
+      "id": "file_1788603280196_upj4",
+      "messageId": "msg_1788603280515_grpf",
+      "originalName": "home-about1.png",
+      "storageKey": "file_1788603280189_665549868.png",
+      "mimeType": "image/png",
+      "extension": ".png",
+      "size": 287807,
+      "url": "/api/v1/files/raw/file_1788603280189_665549868.png",
+      "createdAt": "2026-09-05T10:14:40.196Z"
+    },
+    {
+      "id": "file_1788603445164_yz6t",
+      "messageId": null,
+      "originalName": "test.txt",
+      "storageKey": "file_1788603445162_195904776.txt",
+      "mimeType": "text/plain",
+      "extension": ".txt",
+      "size": 12,
+      "url": "/api/v1/files/raw/file_1788603445162_195904776.txt",
+      "createdAt": "2026-09-05T10:17:25.164Z"
+    }
+  ],
+  "calls": [
+    {
+      "id": "call_1788189698121_ygij",
+      "conversationId": "conv_admin_jean",
+      "callerId": "usr_admin",
+      "receiverId": "usr_jean",
+      "status": "RINGING",
+      "startedAt": "2026-08-31T15:21:38.121Z",
+      "answeredAt": null,
+      "endedAt": null,
+      "duration": 0,
+      "callMode": "VIDEO",
+      "isVideo": true
+    },
+    {
+      "id": "call_1788192512204_dtvw",
+      "conversationId": "conv_admin_jean",
+      "callerId": "usr_admin",
+      "receiverId": "usr_jean",
+      "status": "RINGING",
+      "startedAt": "2026-08-31T16:08:32.204Z",
+      "answeredAt": null,
+      "endedAt": null,
+      "duration": 0,
+      "callMode": "VIDEO",
+      "isVideo": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_admin",
+      "type": "WELCOME",
+      "title": "MMD Chat",
+      "body": "Votre application de messagerie privée est active.",
+      "readAt": null,
+      "createdAt": "2026-08-28T17:08:30.040Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1788683882051_jq5i",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-06T08:38:02.051Z"
+    },
+    {
+      "id": "log_1788683879096_tj50",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-06T08:37:59.096Z"
+    },
+    {
+      "id": "log_1788683212869_ngu2",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-06T08:26:52.869Z"
+    },
+    {
+      "id": "log_1788683176746_0223",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGOUT",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-06T08:26:16.746Z"
+    },
+    {
+      "id": "log_1788603620232_zp91",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:20:20.232Z"
+    },
+    {
+      "id": "log_1788603616620_0j4j",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:20:16.620Z"
+    },
+    {
+      "id": "log_1788603485307_28ph",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "MESSAGE_DELETED",
+      "targetType": "MESSAGE",
+      "targetId": "msg_1788603440050_wk53",
+      "metadata": {
+        "forEveryone": true,
+        "deletedBy": "usr_admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:18:05.307Z"
+    },
+    {
+      "id": "log_1788603480748_vxk6",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "MESSAGE_EDITED",
+      "targetType": "MESSAGE",
+      "targetId": "msg_1788603440050_wk53",
+      "metadata": {
+        "originalSender": "usr_admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:18:00.748Z"
+    },
+    {
+      "id": "log_1788603445164_uov9",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "FILE_UPLOADED",
+      "targetType": "FILE",
+      "targetId": "file_1788603445164_yz6t",
+      "metadata": {
+        "originalName": "test.txt",
+        "size": 12
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:17:25.164Z"
+    },
+    {
+      "id": "log_1788603280198_ompn",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "FILE_UPLOADED",
+      "targetType": "FILE",
+      "targetId": "file_1788603280196_upj4",
+      "metadata": {
+        "originalName": "home-about1.png",
+        "size": 287807
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T10:14:40.198Z"
+    },
+    {
+      "id": "log_1788602931087_qlwm",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "FILE_UPLOADED",
+      "targetType": "FILE",
+      "targetId": "file_1788602931086_1mcs",
+      "metadata": {
+        "originalName": "test_upload.txt",
+        "size": 38
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:08:51.087Z"
+    },
+    {
+      "id": "log_1788602924334_sgz2",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:08:44.334Z"
+    },
+    {
+      "id": "log_1788602515654_orqs",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "FILE_UPLOADED",
+      "targetType": "FILE",
+      "targetId": "file_1788602515653_20z6",
+      "metadata": {
+        "originalName": "testfile.txt",
+        "size": 18
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T10:01:55.654Z"
+    },
+    {
+      "id": "log_1788601558637_cre5",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T09:45:58.637Z"
+    },
+    {
+      "id": "log_1788601544675_dy4z",
+      "actorId": "usr_jean",
+      "actorName": "Jean Dupont",
+      "action": "USER_LOGOUT",
+      "targetType": "USER",
+      "targetId": "usr_jean",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T09:45:44.675Z"
+    },
+    {
+      "id": "log_1788601428307_m8bk",
+      "actorId": "usr_jean",
+      "actorName": "Jean Dupont",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_jean",
+      "metadata": {
+        "phone": "+22891234567"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T09:43:48.307Z"
+    },
+    {
+      "id": "log_1788601391553_w2rg",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGOUT",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T09:43:11.553Z"
+    },
+    {
+      "id": "log_1788599922116_hgb8",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T09:18:42.116Z"
+    },
+    {
+      "id": "log_1788599860447_okca",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "createdAt": "2026-09-05T09:17:40.447Z"
+    },
+    {
+      "id": "log_1788597636063_4af7",
+      "actorId": "usr_admin",
+      "actorName": "Admin KOMECHAT",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+32484824481",
+        "username": "admin"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 OPR/135.0.0.0",
+      "createdAt": "2026-09-05T08:40:36.063Z"
+    },
+    {
+      "id": "log_1787937618708_sd75",
+      "actorId": "usr_admin",
+      "actorName": "Admin MMD",
+      "action": "USER_LOGIN",
+      "targetType": "USER",
+      "targetId": "usr_admin",
+      "metadata": {
+        "phone": "+22890000000"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "createdAt": "2026-08-28T17:20:18.708Z"
+    },
+    {
+      "id": "log_init",
+      "actorId": "usr_admin",
+      "action": "SYSTEM_INITIALIZED",
+      "targetType": "SYSTEM",
+      "targetId": null,
+      "metadata": {
+        "note": "Initial setup & seed executed"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Server Startup",
+      "createdAt": "2026-08-28T17:08:30.040Z"
+    }
+  ],
+  "sessions": [],
+  "settings": {
+    "maxFileSizeMb": 50,
+    "allowPublicMediaPreview": false,
+    "heartbeatIntervalSec": 25,
+    "offlineTimeoutSec": 60
+  },
+  "passwordHashes": {
+    "usr_admin": "$2b$10$zIGNRmA/CPzZErWTdwJVpOb0XLgDU8tqt2LKoatqAcGvCSWMEBCbu",
+    "usr_jean": "$2b$10$EOs8vljVdkyA65NXWYVqIepQ4wIw9.dnvVcj/ZeTvgyqHoqStzUNq",
+    "usr_marie": "$2b$10$lX3dUw5H3sxEIOXf8jHOu.4VtVNdEn/1X4cIOhoJS9DJLzjYEcytq",
+    "usr_paul": "$2b$10$lM5LeTufXbjvl7.vXa4Cs.igxNU3WB9tIlh52UCgCVSJjH0Drj/bW"
+  },
+  "userPreferences": {
+    "usr_jean": {
+      "soundEnabled": true,
+      "notificationsEnabled": true,
+      "theme": "dark",
+      "enterToSend": true,
+      "fontSize": "medium",
+      "autoDownloadMedia": true,
+      "language": "fr"
+    }
+  }
+}

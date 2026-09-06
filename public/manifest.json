@@ -1,0 +1,21 @@
+{
+  "name": "KOMECHAT",
+  "short_name": "KOMECHAT",
+  "description": "Application web privée de communication en temps réel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/komechat_logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

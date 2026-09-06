@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Vibrant Electric Blue & Cyan Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Bubble Gradient -->
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+
+    <!-- 3D Letter K Gradient -->
+    <linearGradient id="kGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)" stroke="url(#ringGrad)" stroke-width="10" />
+  
+  <!-- Subtle Inner Orbit -->
+  <circle cx="256" cy="256" r="215" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.35" stroke-dasharray="8 6" />
+
+  <!-- 3D Speech Bubble Emblem with K -->
+  <g transform="translate(0, -25)">
+    <!-- Chat Bubble Body with tail -->
+    <path d="M 170 120 C 170 95, 190 75, 215 75 L 297 75 C 322 75, 342 95, 342 120 L 342 225 C 342 250, 322 270, 297 270 L 230 270 L 180 310 C 174 315, 170 311, 170 304 Z" 
+          fill="url(#bubbleGrad)" 
+          filter="url(#glow)"
+          opacity="0.95" />
+
+    <!-- Stylized 3D letter 'K' -->
+    <path d="M 215 115 L 238 115 L 238 230 L 215 230 Z
+             M 238 172 L 278 115 L 305 115 L 255 178 L 308 230 L 280 230 L 240 188 Z"
+          fill="url(#kGrad)"
+          filter="url(#glow)" />
+
+    <!-- 3 Chat dots on the right side -->
+    <circle cx="370" cy="140" r="10" fill="#38bdf8" filter="url(#glow)" />
+    <circle cx="385" cy="175" r="14" fill="#3b82f6" filter="url(#glow)" />
+    <circle cx="375" cy="215" r="10" fill="#6366f1" filter="url(#glow)" />
+  </g>
+
+  <!-- KOMECHAT Brand Typography -->
+  <text x="256" y="380" 
+        font-family="system-ui, -apple-system, 'Plus Jakarta Sans', sans-serif" 
+        font-size="44" 
+        font-weight="900" 
+        letter-spacing="5" 
+        text-anchor="middle" 
+        fill="#ffffff"
+        style="text-shadow: 0 4px 16px rgba(56, 189, 248, 0.6);">
+    KOMECHAT
+  </text>
+
+  <!-- Brand Slogan -->
+  <text x="256" y="415" 
+        font-family="system-ui, -apple-system, 'Plus Jakarta Sans', sans-serif" 
+        font-size="14" 
+        font-weight="700" 
+        letter-spacing="3" 
+        text-anchor="middle" 
+        fill="#38bdf8">
+    DISCUTEZ • PARTAGEZ • CONNECTEZ
+  </text>
+</svg>
